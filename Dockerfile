@@ -1,5 +1,7 @@
 FROM fusionauth/fusionauth-app:latest
 
+ENV PORT=9011
+
 ENV DATABASE_URL="jdbc:postgresql://ziggy.db.elephantsql.com:5432/aetvvohc"
 
 ENV POSTGRES_USER="aetvvohc"
