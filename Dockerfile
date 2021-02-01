@@ -1,6 +1,6 @@
 FROM fusionauth/fusionauth-app:latest
 
-ENV PORT=9011
+ENV FUSIONAUTH_APP_HTTP_PORT ${PORT}
 
 ENV DATABASE_URL="jdbc:postgresql://ziggy.db.elephantsql.com:5432/aetvvohc"
 
